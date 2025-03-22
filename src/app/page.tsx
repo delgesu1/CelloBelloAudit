@@ -38,6 +38,9 @@ export default function Home() {
       <section className="relative h-screen flex items-center justify-center bg-gradient-to-b from-zinc-50 to-white overflow-hidden">
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
+          <div className="flex justify-center mb-8">
+            <img src="/images/cellobello-logo.svg" alt="CelloBello Logo" className="h-28" />
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
             <span className="text-black">SEO Audit Report</span>
           </h1>
@@ -192,7 +195,7 @@ export default function Home() {
               <div>
                 <p className="font-semibold text-lg mb-2">Competitive Analysis</p>
                 <p className="text-zinc-700 leading-relaxed">
-                  In the online cello education market, cellobello.org occupies a middle ground between premium platforms like tonebase.co/cello and individual creator sites like emilywright.net, presenting opportunities for differentiation.
+                  In the online cello education market, cellobello.org occupies a middle ground between premium platforms like tonebase.co/cello and individual creator sites like emilywright.net, presenting opportunities for differentiation among competitors such as Violinist.com, The Strad, and StringsMagazine.
                 </p>
               </div>
             </div>
@@ -1376,22 +1379,52 @@ export default function Home() {
                   </Card>
                   
                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Internet Cello Society (cello.org)</h5>
-                    <p className="text-zinc-700 mb-3">Established resource currently experiencing technical issues</p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Community Focus</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Technical Issues</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Outdated Design</span>
-                    </div>
-                  </Card>
-                  
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
                     <h5 className="font-medium mb-2">Emily Wright (emilywright.net)</h5>
                     <p className="text-zinc-700 mb-3">Individual creator with personality-driven content</p>
                     <div className="flex flex-wrap gap-2">
                       <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Personal Brand</span>
                       <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Blog-Centric</span>
                       <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Regular Updates</span>
+                    </div>
+                  </Card>
+                  
+                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-2">The Strad (thestrad.com)</h5>
+                    <p className="text-zinc-700 mb-3">Established publication with strong domain authority and extensive string instrument content</p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Domain Trust: 40/100</span>
+                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">4.6K Monthly Visits</span>
+                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">53.3K Backlinks</span>
+                    </div>
+                  </Card>
+                  
+                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-2">Strings Magazine (stringsmagazine.com)</h5>
+                    <p className="text-zinc-700 mb-3">Leading publication covering orchestra, violin, viola, cello, and bass content</p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Domain Trust: 33/100</span>
+                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">8.1K Monthly Visits</span>
+                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">13.7K Backlinks</span>
+                    </div>
+                  </Card>
+                  
+                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-2">Violinist.com</h5>
+                    <p className="text-zinc-700 mb-3">Community-focused platform with forums and blog content for string players</p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Strong Community</span>
+                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Active Forums</span>
+                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Regular Updates</span>
+                    </div>
+                  </Card>
+                  
+                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-2">Maestronet.com</h5>
+                    <p className="text-zinc-700 mb-3">Forum-based community for string instrument discussion and marketplace</p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Active Forums</span>
+                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Instrument Marketplace</span>
+                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Technical Discussions</span>
                     </div>
                   </Card>
                 </div>
@@ -1402,7 +1435,7 @@ export default function Home() {
                 <div className="space-y-4">
                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
                     <h5 className="font-medium mb-2">Differentiated Value Proposition</h5>
-                    <p className="text-zinc-700">Clearly communicate what makes cellobello.org unique and position between high-end platforms and individual creators. Emphasize community aspects if cello.org remains inactive.</p>
+                    <p className="text-zinc-700">Clearly communicate what makes cellobello.org unique and position between high-end platforms like Tonebase and established publications like The Strad and Strings Magazine while offering more structure than individual creators.</p>
                   </Card>
                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
                     <h5 className="font-medium mb-2">Content Strategy Opportunities</h5>
