@@ -67,9 +67,9 @@ export default function Home() {
       {/* Executive Summary */}
       <section className="py-24 px-6 bg-zinc-50" id="executive-summary">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Executive Summary</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Summary</h2>
           <p className="text-lg text-zinc-700 mb-12 leading-relaxed">
-            This comprehensive SEO audit of cellobello.org has identified several strengths and opportunities for improvement across technical SEO, content strategy, backlink profile, user experience, and competitive positioning. The website serves as a valuable resource for the cello community but requires optimization in several key areas to improve search visibility and user engagement.
+            This comprehensive SEO audit of cellobello.org has identified several strengths and opportunities for improvement across technical SEO, content strategy, backlink profile, user experience, and competitive positioning.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-16">
@@ -445,7 +445,6 @@ export default function Home() {
               <TabsTrigger value="content" className="flex-1 rounded-full data-[state=active]:bg-white data-[state=active]:shadow-sm">Content</TabsTrigger>
               <TabsTrigger value="backlinks" className="flex-1 rounded-full data-[state=active]:bg-white data-[state=active]:shadow-sm">Backlinks</TabsTrigger>
               <TabsTrigger value="keywords" className="flex-1 rounded-full data-[state=active]:bg-white data-[state=active]:shadow-sm">Keywords</TabsTrigger>
-              <TabsTrigger value="ux" className="flex-1 rounded-full data-[state=active]:bg-white data-[state=active]:shadow-sm">User Experience</TabsTrigger>
               <TabsTrigger value="competitors" className="flex-1 rounded-full data-[state=active]:bg-white data-[state=active]:shadow-sm">Competitors</TabsTrigger>
             </TabsList>
             
@@ -646,8 +645,8 @@ export default function Home() {
                     </div>
                   </Card>
                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Image Optimization</h5>
-                    <p className="text-zinc-700">Add width and height attributes to all images to prevent layout shifts. Add missing alt text to improve accessibility and SEO, and compress large images to improve page load times.</p>
+                    <h5 className="font-medium mb-2">Image Optimization (Performance)</h5>
+                    <p className="text-zinc-700">Add width and height attributes to all images to prevent layout shifts (CLS). Compress large images to improve page load times.</p>
                     <div className="flex mt-4 gap-2">
                       <Badge className="bg-emerald-100 text-emerald-800 hover:bg-emerald-200">High Priority</Badge>
                       <Badge className="bg-zinc-100 text-zinc-800 hover:bg-zinc-200">Moderate Complexity</Badge>
@@ -1318,198 +1317,6 @@ export default function Home() {
                     <div className="flex mt-4 gap-2">
                       <Badge className="bg-blue-100 text-blue-800 hover:bg-blue-200">Medium Priority</Badge>
                       <Badge className="bg-zinc-100 text-zinc-800 hover:bg-zinc-200">Long-term</Badge>
-                    </div>
-                  </Card>
-                </div>
-              </div>
-            </TabsContent>
-            
-            <TabsContent value="ux" className="p-8 bg-white rounded-2xl shadow-sm">
-              <h3 className="text-2xl font-semibold mb-6">User Experience Analysis</h3>
-              
-              <div className="mb-8">
-                <h4 className="text-lg font-medium mb-4">Current Status</h4>
-                <div className="grid md:grid-cols-2 gap-8 mb-6">
-                  <div>
-                    <h5 className="font-medium mb-3 text-zinc-900">Strengths:</h5>
-                    <ul className="space-y-2 text-zinc-700">
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-emerald-600 text-xs">✓</span>
-                        </div>
-                        <span>Responsive design</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-emerald-600 text-xs">✓</span>
-                        </div>
-                        <span>Fast page load times</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-emerald-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-emerald-600 text-xs">✓</span>
-                        </div>
-                        <span>Accessibility features</span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h5 className="font-medium mb-3 text-zinc-900">Issues Identified:</h5>
-                    <ul className="space-y-2 text-zinc-700">
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-red-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-red-600 text-xs">!</span>
-                        </div>
-                        <span>Mobile optimization issues</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-red-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-red-600 text-xs">!</span>
-                        </div>
-                        <span>Layout shifts on mobile devices</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-red-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-red-600 text-xs">!</span>
-                        </div>
-                        <span>Missing alt text on images</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="mb-8">
-                <div className="flex justify-between items-center mb-4">
-                  <h4 className="text-lg font-medium">User Experience Metrics</h4>
-                </div>
-                <div className="grid md:grid-cols-2 gap-8">
-                  <div>
-                    <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                      <h5 className="font-medium mb-4 text-sm text-zinc-500">Mobile Performance</h5>
-                      <div className="space-y-4">
-                        <div>
-                          <div className="flex justify-between mb-1">
-                            <span className="text-sm font-medium">First Contentful Paint</span>
-                            <span className="text-sm font-medium text-amber-600">2.4s</span>
-                          </div>
-                          <div className="w-full bg-zinc-200 rounded-full h-2">
-                            <div className="bg-amber-500 h-2 rounded-full" style={{ width: '65%' }}></div>
-                          </div>
-                        </div>
-                        <div>
-                          <div className="flex justify-between mb-1">
-                            <span className="text-sm font-medium">Largest Contentful Paint</span>
-                            <span className="text-sm font-medium text-red-600">3.8s</span>
-                          </div>
-                          <div className="w-full bg-zinc-200 rounded-full h-2">
-                            <div className="bg-red-500 h-2 rounded-full" style={{ width: '45%' }}></div>
-                          </div>
-                        </div>
-                        <div>
-                          <div className="flex justify-between mb-1">
-                            <span className="text-sm font-medium">Cumulative Layout Shift</span>
-                            <span className="text-sm font-medium text-emerald-600">0.02</span>
-                          </div>
-                          <div className="w-full bg-zinc-200 rounded-full h-2">
-                            <div className="bg-emerald-500 h-2 rounded-full" style={{ width: '92%' }}></div>
-                          </div>
-                        </div>
-                        <div>
-                          <div className="flex justify-between mb-1">
-                            <span className="text-sm font-medium">Total Blocking Time</span>
-                            <span className="text-sm font-medium text-amber-600">120ms</span>
-                          </div>
-                          <div className="w-full bg-zinc-200 rounded-full h-2">
-                            <div className="bg-amber-500 h-2 rounded-full" style={{ width: '75%' }}></div>
-                          </div>
-                        </div>
-                      </div>
-                    </Card>
-                  </div>
-                  <div>
-                    <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                      <h5 className="font-medium mb-4 text-sm text-zinc-500">Accessibility Features</h5>
-                      <div className="relative h-60">
-                        <div className="absolute inset-0 flex items-center justify-center">
-                          <div className="w-full max-w-60 h-60 relative">
-                            <div className="absolute inset-0 flex items-center justify-center">
-                              <svg viewBox="0 0 100 100" className="w-full h-full transform -rotate-90">
-                                <circle cx="50" cy="50" r="45" fill="none" stroke="#e5e7eb" strokeWidth="10" />
-                                <circle cx="50" cy="50" r="45" fill="none" stroke="#10b981" strokeWidth="10" strokeDasharray="282.7" strokeDashoffset="0" />
-                                <circle cx="50" cy="50" r="45" fill="none" stroke="#fb923c" strokeWidth="10" strokeDasharray="282.7" strokeDashoffset="127.2" />
-                                <circle cx="50" cy="50" r="45" fill="none" stroke="#f43f5e" strokeWidth="10" strokeDasharray="282.7" strokeDashoffset="198.7" />
-                              </svg>
-                              <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-                                <span className="text-3xl font-bold text-zinc-800">62%</span>
-                                <span className="text-sm text-zinc-500">Overall Score</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="absolute bottom-0 w-full">
-                          <div className="flex justify-between text-xs text-zinc-500 px-1">
-                            <div className="flex items-center">
-                              <div className="w-3 h-3 bg-emerald-500 rounded-full mr-1"></div>
-                              <span>Good (55%)</span>
-                            </div>
-                            <div className="flex items-center">
-                              <div className="w-3 h-3 bg-amber-500 rounded-full mr-1"></div>
-                              <span>Needs Improvement (25%)</span>
-                            </div>
-                            <div className="flex items-center">
-                              <div className="w-3 h-3 bg-red-500 rounded-full mr-1"></div>
-                              <span>Poor (20%)</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </Card>
-                  </div>
-                </div>
-              </div>
-              
-              <div>
-                <h4 className="text-lg font-medium mb-4">Key Recommendations</h4>
-                <div className="space-y-4">
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Implement Responsive Design</h5>
-                    <p className="text-zinc-700">Ensure the website is fully responsive across all devices. This includes using CSS media queries and flexible layouts.</p>
-                    <div className="flex mt-4 gap-2">
-                      <Badge className="bg-emerald-100 text-emerald-800 hover:bg-emerald-200">High Priority</Badge>
-                      <Badge className="bg-zinc-100 text-zinc-800 hover:bg-zinc-200">Easy Fix</Badge>
-                    </div>
-                  </Card>
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Optimize Image Sizes</h5>
-                    <p className="text-zinc-700">Add width and height attributes to all images to prevent layout shifts. This improves page load times and user experience.</p>
-                    <div className="flex mt-4 gap-2">
-                      <Badge className="bg-emerald-100 text-emerald-800 hover:bg-emerald-200">High Priority</Badge>
-                      <Badge className="bg-zinc-100 text-zinc-800 hover:bg-zinc-200">Moderate Complexity</Badge>
-                    </div>
-                  </Card>
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Add Alt Text to Images</h5>
-                    <p className="text-zinc-700">Create descriptive alt text for all images missing them. This improves accessibility for visually impaired users and helps search engines understand your visual content.</p>
-                    <div className="flex mt-4 gap-2">
-                      <Badge className="bg-emerald-100 text-emerald-800 hover:bg-emerald-200">High Priority</Badge>
-                      <Badge className="bg-zinc-100 text-zinc-800 hover:bg-zinc-200">Quick Win</Badge>
-                    </div>
-                  </Card>
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Improve Mobile Navigation</h5>
-                    <p className="text-zinc-700">Ensure the website is easy to navigate on mobile devices. This includes implementing a hamburger menu or a simplified navigation structure.</p>
-                    <div className="flex mt-4 gap-2">
-                      <Badge className="bg-blue-100 text-blue-800 hover:bg-blue-200">Medium Priority</Badge>
-                      <Badge className="bg-zinc-100 text-zinc-800 hover:bg-zinc-200">Quick Win</Badge>
-                    </div>
-                  </Card>
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Implement Accessibility Features</h5>
-                    <p className="text-zinc-700">Add alt text to images, use descriptive link text, and ensure proper color contrast for better accessibility.</p>
-                    <div className="flex mt-4 gap-2">
-                      <Badge className="bg-emerald-100 text-emerald-800 hover:bg-emerald-200">High Priority</Badge>
-                      <Badge className="bg-zinc-100 text-zinc-800 hover:bg-zinc-200">Moderate Complexity</Badge>
                     </div>
                   </Card>
                 </div>
