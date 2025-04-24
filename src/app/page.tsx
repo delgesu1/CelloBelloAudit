@@ -54,12 +54,8 @@ export default function Home() {
               View Key Findings
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button variant="outline" className="rounded-full px-8 py-6 text-base border-zinc-300 text-zinc-800"
-              onClick={() => scrollToElement('implementation-roadmap')}>
-              Implementation Roadmap
-            </Button>
           </div>
-          <p className="text-sm text-zinc-500 mt-12">Prepared by RTC Logic</p>
+          <p className="text-sm text-zinc-500 mt-12">Prepared by <span className="text-lg font-bold text-blue-400">RTC Logic</span></p>
         </div>
         <div className="absolute bottom-10 left-0 right-0 flex justify-center">
           <div className="animate-bounce cursor-pointer" onClick={() => scrollToElement('executive-summary')}>
