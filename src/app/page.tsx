@@ -114,25 +114,31 @@ export default function Home() {
                   <div className="flex-shrink-0 w-5 h-5 rounded-full bg-red-100 flex items-center justify-center mr-3 mt-1">
                     <span className="text-red-600 text-xs">!</span>
                   </div>
-                  <span>432 meta tag issues affecting SEO visibility</span>
+                  <span>Improve search visibility: Fix 432 Meta Tag & 539 Content/H1 issues</span>
                 </li>
                 <li className="flex items-start">
                   <div className="flex-shrink-0 w-5 h-5 rounded-full bg-red-100 flex items-center justify-center mr-3 mt-1">
                     <span className="text-red-600 text-xs">!</span>
                   </div>
-                  <span>539 content issues impacting crawlability and ranking</span>
+                  <span>Enhance mobile experience: Add viewport tag & address image layout shifts</span>
                 </li>
                 <li className="flex items-start">
                   <div className="flex-shrink-0 w-5 h-5 rounded-full bg-red-100 flex items-center justify-center mr-3 mt-1">
                     <span className="text-red-600 text-xs">!</span>
                   </div>
-                  <span>Missing WWW redirect affecting site consistency</span>
+                  <span>Target high-potential keywords for content creation/optimization</span>
                 </li>
                 <li className="flex items-start">
                   <div className="flex-shrink-0 w-5 h-5 rounded-full bg-amber-100 flex items-center justify-center mr-3 mt-1">
                     <span className="text-amber-600 text-xs">!</span>
                   </div>
-                  <span>99% of images missing size attributes</span>
+                  <span>Implement WWW redirect for site consistency</span>
+                </li>
+                 <li className="flex items-start">
+                  <div className="flex-shrink-0 w-5 h-5 rounded-full bg-amber-100 flex items-center justify-center mr-3 mt-1">
+                    <span className="text-amber-600 text-xs">!</span>
+                  </div>
+                  <span>Improve accessibility and image SEO with alt text</span>
                 </li>
               </ul>
             </Card>
@@ -145,9 +151,9 @@ export default function Home() {
                 <span className="font-semibold">1</span>
               </div>
               <div>
-                <p className="font-semibold text-lg mb-2">Technical SEO</p>
+                <p className="font-semibold text-lg mb-2">Content & On-Page SEO</p>
                 <p className="text-zinc-700 leading-relaxed">
-                  The website has a solid technical foundation with proper HTTPS implementation but lacks a consistent WWW redirect, creating potential duplicate content issues. Additionally, there are numerous meta tag problems affecting search visibility.
+                  Valuable unique content exists but faces significant hurdles: 432 meta tag issues (titles/descriptions) and 539 content issues (critical H1 tag problems, missing alt text) severely impact search visibility, click-through rates, and accessibility. Keyword targeting needs optimization.
                 </p>
               </div>
             </div>
@@ -157,9 +163,9 @@ export default function Home() {
                 <span className="font-semibold">2</span>
               </div>
               <div>
-                <p className="font-semibold text-lg mb-2">Content Strategy</p>
+                <p className="font-semibold text-lg mb-2">Technical SEO & Mobile</p>
                 <p className="text-zinc-700 leading-relaxed">
-                  The site offers valuable, unique content but faces 432 meta tag issues (titles and descriptions) and 539 content issues including H1 tag problems (missing, multiple, duplicates, too long) and images missing alt text, significantly impacting visibility and accessibility.
+                  Solid HTTPS foundation is undermined by missing WWW redirect and critical mobile optimization gaps (missing viewport tag). Technical performance issues like slow LCP (3.8s) and numerous meta tag errors further hinder search potential.
                 </p>
               </div>
             </div>
@@ -169,24 +175,26 @@ export default function Home() {
                 <span className="font-semibold">3</span>
               </div>
               <div>
-                <p className="font-semibold text-lg mb-2">Backlink Profile</p>
+                <p className="font-semibold text-lg mb-2">User Experience</p>
                 <p className="text-zinc-700 leading-relaxed">
-                  With a Domain Authority of 39/100 and 638 linking root domains, cellobello.org has a respectable backlink profile with high-quality educational and music-related links, but opportunities exist to expand this network.
+                  Mobile experience suffers from missing viewport tags and layout shifts caused by unsized images (99%). Missing alt text (13% of images) impacts accessibility. Core Web Vitals show room for improvement, especially Largest Contentful Paint.
                 </p>
               </div>
             </div>
+
 
             <div className="flex gap-6">
               <div className="flex-shrink-0 w-12 h-12 rounded-full bg-black text-white flex items-center justify-center">
                 <span className="font-semibold">4</span>
               </div>
               <div>
-                <p className="font-semibold text-lg mb-2">User Experience</p>
+                <p className="font-semibold text-lg mb-2">Backlink Profile</p>
                 <p className="text-zinc-700 leading-relaxed">
-                  The site has significant mobile optimization issues, including the absence of a viewport meta tag. Additionally, 99% of images lack size attributes causing layout shifts, and 13% of images are missing alt text for accessibility.
+                  With a Domain Authority of 39/100 and 638 linking root domains, cellobello.org has a respectable backlink profile with high-quality educational and music-related links, but opportunities exist to expand this network and disavow toxic links.
                 </p>
               </div>
             </div>
+
 
             <div className="flex gap-6">
               <div className="flex-shrink-0 w-12 h-12 rounded-full bg-black text-white flex items-center justify-center">
@@ -203,79 +211,229 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Priority Recommendations */}
+      {/* Consolidated Recommendations Section */}
       <section className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Priority Recommendations</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">Actionable Recommendations</h2>
+          <p className="text-lg text-zinc-600 max-w-3xl mx-auto text-center mb-16">Prioritized solutions to drive more traffic to cellobello.org, based on impact and implementation effort</p>
           
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-8 border-0 shadow-sm hover:shadow-md transition-shadow rounded-2xl bg-gradient-to-br from-zinc-50 to-white">
-              <div className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center mb-6">
-                <span className="font-semibold">1</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Implement WWW Redirect</h3>
-              <p className="text-zinc-700 leading-relaxed">
-                Set up proper 301 redirects to ensure consistent domain version (with or without www) to prevent duplicate content issues and consolidate SEO signals.
-              </p>
-              <div className="mt-6 pt-6 border-t border-zinc-100">
-                <p className="text-sm text-zinc-500 font-medium">Implementation difficulty</p>
-                <div className="w-full bg-zinc-200 rounded-full h-2 mt-2">
-                  <div className="bg-black h-2 rounded-full" style={{ width: '30%' }}></div>
+          <div className="space-y-16">
+            {/* High Impact Category */}
+            <div>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center flex-shrink-0">
+                  <span className="font-semibold">1</span>
                 </div>
-                <p className="text-xs text-zinc-500 mt-1">Easy</p>
+                <h3 className="text-2xl font-semibold">High Impact Recommendations</h3>
+                <div className="h-0.5 bg-black flex-grow rounded-full"></div>
               </div>
-            </Card>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <Card className="overflow-hidden border-0 shadow-sm hover:shadow-md transition-shadow rounded-2xl">
+                  <div className="h-2 bg-gradient-to-r from-pink-500 to-rose-500"></div>
+                  <div className="p-8">
+                    <div className="mb-4 flex items-center justify-between">
+                      <h4 className="text-xl font-semibold">Meta Tag Optimization</h4>
+                      <Badge className="bg-black hover:bg-zinc-800 text-white">Critical</Badge>
+                    </div>
+                    <p className="text-zinc-700 mb-5">
+                      Resolve 432 meta tag issues (missing, duplicate, and poorly written titles & descriptions) to significantly improve search visibility and click-through rates from search results.
+                    </p>
+                    <div className="space-y-1 mb-4">
+                      <div className="flex justify-between text-sm">
+                        <span className="font-medium">Traffic impact</span>
+                        <span className="text-emerald-600 font-medium">Very High</span>
+                      </div>
+                      <div className="w-full bg-zinc-100 rounded-full h-2">
+                        <div className="bg-emerald-500 h-2 rounded-full" style={{ width: '90%' }}></div>
+                      </div>
+                    </div>
+                    <div className="space-y-1">
+                      <div className="flex justify-between text-sm">
+                        <span className="font-medium">Implementation effort</span>
+                        <span className="text-amber-600 font-medium">Medium</span>
+                      </div>
+                      <div className="w-full bg-zinc-100 rounded-full h-2">
+                        <div className="bg-amber-500 h-2 rounded-full" style={{ width: '50%' }}></div>
+                      </div>
+                    </div>
+                  </div>
+                </Card>
+                
+                <Card className="overflow-hidden border-0 shadow-sm hover:shadow-md transition-shadow rounded-2xl">
+                  <div className="h-2 bg-gradient-to-r from-orange-500 to-amber-500"></div>
+                  <div className="p-8">
+                    <div className="mb-4 flex items-center justify-between">
+                      <h4 className="text-xl font-semibold">H1 Tag Structure</h4>
+                      <Badge className="bg-black hover:bg-zinc-800 text-white">Critical</Badge>
+                    </div>
+                    <p className="text-zinc-700 mb-5">
+                      Fix H1 tag issues (missing, multiple, duplicate, too long) across 539 content issues to dramatically improve search engine understanding of page topics and relevance.
+                    </p>
+                    <div className="space-y-1 mb-4">
+                      <div className="flex justify-between text-sm">
+                        <span className="font-medium">Traffic impact</span>
+                        <span className="text-emerald-600 font-medium">High</span>
+                      </div>
+                      <div className="w-full bg-zinc-100 rounded-full h-2">
+                        <div className="bg-emerald-500 h-2 rounded-full" style={{ width: '80%' }}></div>
+                      </div>
+                    </div>
+                    <div className="space-y-1">
+                      <div className="flex justify-between text-sm">
+                        <span className="font-medium">Implementation effort</span>
+                        <span className="text-amber-600 font-medium">Moderate</span>
+                      </div>
+                      <div className="w-full bg-zinc-100 rounded-full h-2">
+                        <div className="bg-amber-500 h-2 rounded-full" style={{ width: '60%' }}></div>
+                      </div>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+            </div>
             
-            <Card className="p-8 border-0 shadow-sm hover:shadow-md transition-shadow rounded-2xl bg-gradient-to-br from-zinc-50 to-white">
-              <div className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center mb-6">
-                <span className="font-semibold">2</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Fix Meta Tag Issues</h3>
-              <p className="text-zinc-700 leading-relaxed">
-                Resolve 432 meta tag issues including duplicate page titles, titles that are too long or too short, and missing or duplicate meta descriptions.
-              </p>
-              <div className="mt-6 pt-6 border-t border-zinc-100">
-                <p className="text-sm text-zinc-500 font-medium">Implementation difficulty</p>
-                <div className="w-full bg-zinc-200 rounded-full h-2 mt-2">
-                  <div className="bg-black h-2 rounded-full" style={{ width: '50%' }}></div>
+            {/* Medium Impact Category */}
+            <div>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center flex-shrink-0">
+                  <span className="font-semibold">2</span>
                 </div>
-                <p className="text-xs text-zinc-500 mt-1">Medium</p>
+                <h3 className="text-2xl font-semibold">Medium Impact Recommendations</h3>
+                <div className="h-0.5 bg-black flex-grow rounded-full"></div>
               </div>
-            </Card>
+              
+              <div className="grid md:grid-cols-2 gap-6">
+                <Card className="overflow-hidden border-0 shadow-sm hover:shadow-md transition-shadow rounded-2xl">
+                  <div className="h-2 bg-gradient-to-r from-blue-500 to-indigo-500"></div>
+                  <div className="p-8">
+                    <div className="mb-4 flex items-center justify-between">
+                      <h4 className="text-xl font-semibold">Mobile Optimization</h4>
+                      <Badge className="bg-zinc-800 hover:bg-zinc-700 text-white">High Priority</Badge>
+                    </div>
+                    <p className="text-zinc-700 mb-5">
+                      Implement viewport meta tag and fix image sizing issues to improve mobile rankings, prevent layout shifts, and enhance mobile user experience.
+                    </p>
+                    <div className="space-y-1 mb-4">
+                      <div className="flex justify-between text-sm">
+                        <span className="font-medium">Traffic impact</span>
+                        <span className="text-emerald-600 font-medium">Medium-High</span>
+                      </div>
+                      <div className="w-full bg-zinc-100 rounded-full h-2">
+                        <div className="bg-emerald-500 h-2 rounded-full" style={{ width: '70%' }}></div>
+                      </div>
+                    </div>
+                    <div className="space-y-1">
+                      <div className="flex justify-between text-sm">
+                        <span className="font-medium">Implementation effort</span>
+                        <span className="text-emerald-600 font-medium">Easy-Medium</span>
+                      </div>
+                      <div className="w-full bg-zinc-100 rounded-full h-2">
+                        <div className="bg-emerald-500 h-2 rounded-full" style={{ width: '40%' }}></div>
+                      </div>
+                    </div>
+                  </div>
+                </Card>
+                
+                <Card className="overflow-hidden border-0 shadow-sm hover:shadow-md transition-shadow rounded-2xl">
+                  <div className="h-2 bg-gradient-to-r from-emerald-500 to-teal-500"></div>
+                  <div className="p-8">
+                    <div className="mb-4 flex items-center justify-between">
+                      <h4 className="text-xl font-semibold">Keyword Content Strategy</h4>
+                      <Badge className="bg-zinc-800 hover:bg-zinc-700 text-white">High Priority</Badge>
+                    </div>
+                    <p className="text-zinc-700 mb-5">
+                      Create and optimize content for high-opportunity keyword clusters like "cello bow hold" (920 monthly searches) and "playing cello" (910 searches) with low competition.
+                    </p>
+                    <div className="space-y-1 mb-4">
+                      <div className="flex justify-between text-sm">
+                        <span className="font-medium">Traffic impact</span>
+                        <span className="text-emerald-600 font-medium">High</span>
+                      </div>
+                      <div className="w-full bg-zinc-100 rounded-full h-2">
+                        <div className="bg-emerald-500 h-2 rounded-full" style={{ width: '80%' }}></div>
+                      </div>
+                    </div>
+                    <div className="space-y-1">
+                      <div className="flex justify-between text-sm">
+                        <span className="font-medium">Implementation effort</span>
+                        <span className="text-red-600 font-medium">High</span>
+                      </div>
+                      <div className="w-full bg-zinc-100 rounded-full h-2">
+                        <div className="bg-red-500 h-2 rounded-full" style={{ width: '75%' }}></div>
+                      </div>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+            </div>
             
-            <Card className="p-8 border-0 shadow-sm hover:shadow-md transition-shadow rounded-2xl bg-gradient-to-br from-zinc-50 to-white">
-              <div className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center mb-6">
-                <span className="font-semibold">3</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Fix H1 Tag Issues</h3>
-              <p className="text-zinc-700 leading-relaxed">
-                Address multiple H1 tags, missing H1 tags, duplicate H1s across pages, and overly long H1 tags to improve content hierarchy for search engines.
-              </p>
-              <div className="mt-6 pt-6 border-t border-zinc-100">
-                <p className="text-sm text-zinc-500 font-medium">Implementation difficulty</p>
-                <div className="w-full bg-zinc-200 rounded-full h-2 mt-2">
-                  <div className="bg-black h-2 rounded-full" style={{ width: '60%' }}></div>
+            {/* Supporting Recommendations */}
+            <div>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-10 h-10 rounded-full bg-zinc-700 text-white flex items-center justify-center flex-shrink-0">
+                  <span className="font-semibold">3</span>
                 </div>
-                <p className="text-xs text-zinc-500 mt-1">Moderate</p>
+                <h3 className="text-2xl font-semibold">Supporting Recommendations</h3>
+                <div className="h-0.5 bg-zinc-700 flex-grow rounded-full"></div>
               </div>
-            </Card>
+              
+              <div className="grid md:grid-cols-3 gap-6">
+                <Card className="border-0 shadow-sm hover:shadow-md transition-shadow rounded-2xl bg-zinc-50">
+                  <div className="p-6">
+                    <h4 className="text-lg font-semibold mb-3">WWW Redirect Implementation</h4>
+                    <p className="text-zinc-700 text-sm mb-4">
+                      Set up 301 redirects for consistent domain version to consolidate SEO signals and prevent duplicate content penalties.
+                    </p>
+                    <div className="flex items-center justify-between text-sm">
+                      <Badge className="bg-zinc-200 text-zinc-800">Easy Fix</Badge>
+                      <span className="text-zinc-500">Medium Impact</span>
+                    </div>
+                  </div>
+                </Card>
+                
+                <Card className="border-0 shadow-sm hover:shadow-md transition-shadow rounded-2xl bg-zinc-50">
+                  <div className="p-6">
+                    <h4 className="text-lg font-semibold mb-3">Image Alt Text</h4>
+                    <p className="text-zinc-700 text-sm mb-4">
+                      Add descriptive alt text for images missing it to improve accessibility and boost image search potential.
+                    </p>
+                    <div className="flex items-center justify-between text-sm">
+                      <Badge className="bg-zinc-200 text-zinc-800">Easy-Medium</Badge>
+                      <span className="text-zinc-500">Medium Impact</span>
+                    </div>
+                  </div>
+                </Card>
+                
+                <Card className="border-0 shadow-sm hover:shadow-md transition-shadow rounded-2xl bg-zinc-50">
+                  <div className="p-6">
+                    <h4 className="text-lg font-semibold mb-3">Internal Linking Enhancement</h4>
+                    <p className="text-zinc-700 text-sm mb-4">
+                      Improve anchor text on 108 non-descriptive internal links to strengthen topic relevance signals.
+                    </p>
+                    <div className="flex items-center justify-between text-sm">
+                      <Badge className="bg-zinc-200 text-zinc-800">Moderate</Badge>
+                      <span className="text-zinc-500">Medium Impact</span>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+            </div>
             
-            <Card className="p-8 border-0 shadow-sm hover:shadow-md transition-shadow rounded-2xl bg-gradient-to-br from-zinc-50 to-white">
-              <div className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center mb-6">
-                <span className="font-semibold">4</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Add Missing Alt Text</h3>
-              <p className="text-zinc-700 leading-relaxed">
-                Create descriptive alt text for all images missing this attribute to improve accessibility for visually impaired users and help search engines understand image content.
-              </p>
-              <div className="mt-6 pt-6 border-t border-zinc-100">
-                <p className="text-sm text-zinc-500 font-medium">Implementation difficulty</p>
-                <div className="w-full bg-zinc-200 rounded-full h-2 mt-2">
-                  <div className="bg-black h-2 rounded-full" style={{ width: '40%' }}></div>
+            {/* Implementation Note */}
+            <div className="bg-zinc-50 p-8 rounded-2xl border border-zinc-100">
+              <div className="flex gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-zinc-200 flex items-center justify-center text-zinc-700">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>
                 </div>
-                <p className="text-xs text-zinc-500 mt-1">Easy-Medium</p>
+                <div>
+                  <h4 className="text-lg font-semibold mb-2">Implementation Approach</h4>
+                  <p className="text-zinc-700">
+                    The recommendations above are arranged in order of traffic impact. For maximum results, implement the high-impact recommendations first, focusing on technical SEO and on-page factors that directly affect search visibility before proceeding to more resource-intensive content creation efforts.
+                  </p>
+                </div>
               </div>
-            </Card>
+            </div>
           </div>
         </div>
       </section>
@@ -1456,292 +1614,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Implementation Roadmap */}
-      <section className="py-24 px-6" id="implementation-roadmap">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Implementation Roadmap</h2>
-          
-          <div className="relative">
-            <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-zinc-200"></div>
-            
-            <div className="space-y-12">
-              <div className="relative">
-                <div className="absolute left-0 top-0 w-12 h-12 rounded-full bg-black text-white flex items-center justify-center">
-                  <span className="font-semibold">1</span>
-                </div>
-                <div className="ml-20">
-                  <div className="flex justify-between items-center mb-4">
-                    <h3 className="text-xl font-semibold">Phase 1: Critical Technical Fixes</h3>
-                    <div className="flex items-center gap-2">
-                      <span className="text-sm text-zinc-600 font-medium">April 1-15, 2025</span>
-                      <span className="px-3 py-1 bg-emerald-100 text-emerald-800 text-xs font-medium rounded-full">2 Weeks</span>
-                    </div>
-                  </div>
-                  <Card className="p-6 border-0 shadow-sm bg-white rounded-xl">
-                    <ul className="space-y-3 text-zinc-700">
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Fix robots.txt blocking of 9 internal URLs</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Review and correct 8 problematic canonical tags</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Fix 7 pagination URLs not properly linked with anchor tags</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Add viewport meta tag to all pages</span>
-                      </li>
-                    </ul>
-                    <div className="mt-4 pt-4 border-t border-zinc-100">
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="text-sm text-zinc-500 font-medium">Implementation Progress</span>
-                        <span className="text-sm text-zinc-500 font-medium">Priority: Critical</span>
-                      </div>
-                      <div className="w-full bg-zinc-200 rounded-full h-2">
-                        <div className="bg-emerald-500 h-2 rounded-full" style={{ width: '0%' }}></div>
-                      </div>
-                    </div>
-                  </Card>
-                </div>
-              </div>
-              
-              <div className="relative">
-                <div className="absolute left-0 top-0 w-12 h-12 rounded-full bg-black text-white flex items-center justify-center">
-                  <span className="font-semibold">2</span>
-                </div>
-                <div className="ml-20">
-                  <div className="flex justify-between items-center mb-4">
-                    <h3 className="text-xl font-semibold">Phase 2: Content Structure Optimization</h3>
-                    <div className="flex items-center gap-2">
-                      <span className="text-sm text-zinc-600 font-medium">April 16 - May 14, 2025</span>
-                      <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">4 Weeks</span>
-                    </div>
-                  </div>
-                  <Card className="p-6 border-0 shadow-sm bg-white rounded-xl">
-                    <ul className="space-y-3 text-zinc-700">
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Fix 121 pages with multiple H1 tags</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Add H1 tags to 25 pages missing them</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Fix 112 pages with duplicate H2 tags</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Correct 7 pages with non-sequential heading structure</span>
-                      </li>
-                    </ul>
-                    <div className="mt-4 pt-4 border-t border-zinc-100">
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="text-sm text-zinc-500 font-medium">Implementation Progress</span>
-                        <span className="text-sm text-zinc-500 font-medium">Priority: High</span>
-                      </div>
-                      <div className="w-full bg-zinc-200 rounded-full h-2">
-                        <div className="bg-blue-500 h-2 rounded-full" style={{ width: '0%' }}></div>
-                      </div>
-                    </div>
-                  </Card>
-                </div>
-              </div>
-              
-              <div className="relative">
-                <div className="absolute left-0 top-0 w-12 h-12 rounded-full bg-black text-white flex items-center justify-center">
-                  <span className="font-semibold">3</span>
-                </div>
-                <div className="ml-20">
-                  <div className="flex justify-between items-center mb-4">
-                    <h3 className="text-xl font-semibold">Phase 3: Meta Data Enhancement</h3>
-                    <div className="flex items-center gap-2">
-                      <span className="text-sm text-zinc-600 font-medium">May 15 - June 15, 2025</span>
-                      <span className="px-3 py-1 bg-indigo-100 text-indigo-800 text-xs font-medium rounded-full">1 Month</span>
-                    </div>
-                  </div>
-                  <Card className="p-6 border-0 shadow-sm bg-white rounded-xl">
-                    <ul className="space-y-3 text-zinc-700">
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Create unique meta descriptions for 212 pages (84%)</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Fix 13 duplicate page titles</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Optimize 35 short page titles (under 30 characters)</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Review and shorten 30 long page titles (over 561 pixels)</span>
-                      </li>
-                    </ul>
-                    <div className="mt-4 pt-4 border-t border-zinc-100">
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="text-sm text-zinc-500 font-medium">Implementation Progress</span>
-                        <span className="text-sm text-zinc-500 font-medium">Priority: High</span>
-                      </div>
-                      <div className="w-full bg-zinc-200 rounded-full h-2">
-                        <div className="bg-indigo-500 h-2 rounded-full" style={{ width: '0%' }}></div>
-                      </div>
-                    </div>
-                  </Card>
-                </div>
-              </div>
-              
-              <div className="relative">
-                <div className="absolute left-0 top-0 w-12 h-12 rounded-full bg-black text-white flex items-center justify-center">
-                  <span className="font-semibold">4</span>
-                </div>
-                <div className="ml-20">
-                  <div className="flex justify-between items-center mb-4">
-                    <h3 className="text-xl font-semibold">Phase 4: Image and Link Optimization</h3>
-                    <div className="flex items-center gap-2">
-                      <span className="text-sm text-zinc-600 font-medium">June 16 - July 31, 2025</span>
-                      <span className="px-3 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded-full">6 Weeks</span>
-                    </div>
-                  </div>
-                  <Card className="p-6 border-0 shadow-sm bg-white rounded-xl">
-                    <ul className="space-y-3 text-zinc-700">
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Add width and height attributes to 120 images</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Add descriptive alt text to 16 images</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Compress and optimize 8 large images (over 100KB)</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Fix 99 internal links without anchor text</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Improve 108 links with non-descriptive anchor text</span>
-                      </li>
-                    </ul>
-                    <div className="mt-4 pt-4 border-t border-zinc-100">
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="text-sm text-zinc-500 font-medium">Implementation Progress</span>
-                        <span className="text-sm text-zinc-500 font-medium">Priority: Medium</span>
-                      </div>
-                      <div className="w-full bg-zinc-200 rounded-full h-2">
-                        <div className="bg-purple-500 h-2 rounded-full" style={{ width: '0%' }}></div>
-                      </div>
-                    </div>
-                  </Card>
-                </div>
-              </div>
-              
-              <div className="relative">
-                <div className="absolute left-0 top-0 w-12 h-12 rounded-full bg-black text-white flex items-center justify-center">
-                  <span className="font-semibold">5</span>
-                </div>
-                <div className="ml-20">
-                  <div className="flex justify-between items-center mb-4">
-                    <h3 className="text-xl font-semibold">Phase 5: Content Quality and Security Upgrades</h3>
-                    <div className="flex items-center gap-2">
-                      <span className="text-sm text-zinc-600 font-medium">August 1 - September 30, 2025</span>
-                      <span className="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">2 Months</span>
-                    </div>
-                  </div>
-                  <Card className="p-6 border-0 shadow-sm bg-white rounded-xl">
-                    <ul className="space-y-3 text-zinc-700">
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Enhance 93 pages with low content (less than 200 words)</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Improve readability on 96 pages with difficult content</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Implement security headers (missing on 98% of pages)</span>
-                      </li>
-                      <li className="flex items-start">
-                        <div className="flex-shrink-0 w-5 h-5 rounded-full bg-zinc-100 flex items-center justify-center mr-3 mt-1">
-                          <span className="text-zinc-600 text-xs">→</span>
-                        </div>
-                        <span>Fix 81 unsafe cross-origin links with rel="noopener"</span>
-                      </li>
-                    </ul>
-                    <div className="mt-4 pt-4 border-t border-zinc-100">
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="text-sm text-zinc-500 font-medium">Implementation Progress</span>
-                        <span className="text-sm text-zinc-500 font-medium">Priority: Medium</span>
-                      </div>
-                      <div className="w-full bg-zinc-200 rounded-full h-2">
-                        <div className="bg-orange-500 h-2 rounded-full" style={{ width: '0%' }}></div>
-                      </div>
-                    </div>
-                  </Card>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="py-12 px-6 bg-zinc-900 text-white">
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
               <p className="text-lg font-semibold">SEO Audit Report for cellobello.org</p>
-              <p className="text-zinc-400">March 21, 2025</p>
+              <p className="text-zinc-400">April 25, 2025</p>
             </div>
             <div className="text-right">
               <p className="text-zinc-400">Prepared by</p>
