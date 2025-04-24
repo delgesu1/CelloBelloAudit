@@ -39,7 +39,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
           <div className="flex justify-center mb-8">
-            <img src="/images/cellobello-logo.svg" alt="CelloBello Logo" className="h-28" />
+            <img src="/images/CB_Logo_11_2024_6e1ec5c4-c466-4639-a3e5-b12a2010f975.jpeg" alt="CelloBello Logo" className="h-28" />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
             <span className="text-black">SEO Audit Report</span>
