@@ -735,116 +735,6 @@ export default function Home() {
                 </div>
               </div>
               
-              <div className="mb-8">
-                <div className="flex justify-between items-center mb-4">
-                  <h4 className="text-lg font-medium">Target Keywords Analysis</h4>
-                </div>
-                
-                <div className="bg-zinc-50 p-6 rounded-xl mb-6">
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <h5 className="font-medium mb-4 text-sm text-zinc-500">Primary Keywords</h5>
-                      <div className="space-y-2">
-                        <div className="bg-white rounded-lg p-3 shadow-sm border border-zinc-100">
-                          <div className="flex justify-between">
-                            <span className="font-medium">cello</span>
-                            <span className="text-emerald-600 text-sm">Primary focus</span>
-                          </div>
-                        </div>
-                        <div className="bg-white rounded-lg p-3 shadow-sm border border-zinc-100">
-                          <div className="flex justify-between">
-                            <span className="font-medium">ensemble</span>
-                            <span className="text-emerald-600 text-sm">Secondary focus</span>
-                          </div>
-                        </div>
-                        <div className="bg-white rounded-lg p-3 shadow-sm border border-zinc-100">
-                          <div className="flex justify-between">
-                            <span className="font-medium">musical</span>
-                            <span className="text-emerald-600 text-sm">Common descriptor</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <h5 className="font-medium mb-4 text-sm text-zinc-500">Specific Opportunity Keywords</h5>
-                      <div className="space-y-2">
-                        <div className="bg-white rounded-lg p-3 shadow-sm border border-zinc-100">
-                          <div className="flex justify-between mb-1">
-                            <span className="font-medium">"cello bello"</span>
-                            <span className="text-blue-600 text-sm">High opportunity</span>
-                          </div>
-                          <div className="text-xs text-zinc-500">Branded term with high search volume</div>
-                        </div>
-                        <div className="bg-white rounded-lg p-3 shadow-sm border border-zinc-100">
-                          <div className="flex justify-between mb-1">
-                            <span className="font-medium">"cello jobs"</span>
-                            <span className="text-blue-600 text-sm">Medium opportunity</span>
-                          </div>
-                          <div className="text-xs text-zinc-500">Estimated 44 monthly clicks</div>
-                        </div>
-                        <div className="bg-white rounded-lg p-3 shadow-sm border border-zinc-100">
-                          <div className="flex justify-between mb-1">
-                            <span className="font-medium">"straight vs bowed"</span>
-                            <span className="text-blue-600 text-sm">Niche opportunity</span>
-                          </div>
-                          <div className="text-xs text-zinc-500">Cello technique term with potential</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="overflow-x-auto mb-4">
-                  <table className="min-w-full">
-                    <thead>
-                      <tr className="border-b border-zinc-200">
-                        <th className="py-3 text-left text-sm font-medium text-zinc-500">Keyword</th>
-                        <th className="py-3 text-left text-sm font-medium text-zinc-500">Search Volume</th>
-                        <th className="py-3 text-left text-sm font-medium text-zinc-500">Difficulty</th>
-                        <th className="py-3 text-left text-sm font-medium text-zinc-500">Opportunity</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-zinc-100">
-                      <tr>
-                        <td className="py-4 text-zinc-900 font-medium">"cello bello"</td>
-                        <td className="py-4 text-zinc-700">High</td>
-                        <td className="py-4 text-zinc-700">Low</td>
-                        <td className="py-4 text-zinc-700">Branded term with high search volume</td>
-                      </tr>
-                      <tr>
-                        <td className="py-4 text-zinc-900 font-medium">"cello jobs"</td>
-                        <td className="py-4 text-zinc-700">Medium</td>
-                        <td className="py-4 text-zinc-700">Low</td>
-                        <td className="py-4 text-zinc-700">44 estimated clicks</td>
-                      </tr>
-                      <tr>
-                        <td className="py-4 text-zinc-900 font-medium">"chamber music concert experience"</td>
-                        <td className="py-4 text-zinc-700">Low</td>
-                        <td className="py-4 text-zinc-700">Medium</td>
-                        <td className="py-4 text-zinc-700">Low competition, high relevance</td>
-                      </tr>
-                      <tr>
-                        <td className="py-4 text-zinc-900 font-medium">"straight vs bowed"</td>
-                        <td className="py-4 text-zinc-700">Low</td>
-                        <td className="py-4 text-zinc-700">Low</td>
-                        <td className="py-4 text-zinc-700">Cello technique term with potential</td>
-                      </tr>
-                      <tr>
-                        <td className="py-4 text-zinc-900 font-medium">"starkler"</td>
-                        <td className="py-4 text-zinc-700">Low</td>
-                        <td className="py-4 text-zinc-700">Low</td>
-                        <td className="py-4 text-zinc-700">Cello-related term with potential</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                
-                <Button variant="outline" size="sm" className="w-full py-2 flex items-center justify-center">
-                  <span>View All 24 Target Keywords</span>
-                  <ChevronRight className="ml-1 h-4 w-4" />
-                </Button>
-              </div>
-              
               <div>
                 <h4 className="text-lg font-medium mb-4">Key Recommendations</h4>
                 <div className="space-y-4">
@@ -1051,276 +941,250 @@ export default function Home() {
             {/* Keyword Opportunities Section */}
             <TabsContent value="keywords" className="p-8 bg-white rounded-2xl shadow-sm">
               <h3 className="text-2xl font-semibold mb-6">Keyword Opportunities Analysis</h3>
-              
-              <div className="mb-8">
-                <h4 className="text-lg font-medium mb-4">Top Performing Keywords</h4>
-                <div className="overflow-x-auto mb-6">
-                  <table className="min-w-full bg-white">
-                    <thead>
-                      <tr className="border-b border-zinc-200">
-                        <th className="py-3 text-left pl-4 text-sm font-medium text-zinc-500">Keyword</th>
-                        <th className="py-3 text-left text-sm font-medium text-zinc-500">Position</th>
-                        <th className="py-3 text-left text-sm font-medium text-zinc-500">Search Vol.</th>
-                        <th className="py-3 text-left text-sm font-medium text-zinc-500">Difficulty</th>
-                        <th className="py-3 text-left text-sm font-medium text-zinc-500">Competition</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-zinc-100">
-                      <tr className="hover:bg-zinc-50">
-                        <td className="py-4 pl-4 text-zinc-900 font-medium">cello concerto</td>
-                        <td className="py-4 text-zinc-700">5</td>
-                        <td className="py-4 text-zinc-700">2.4K</td>
-                        <td className="py-4 text-zinc-700">52</td>
-                        <td className="py-4 text-zinc-700">0.04</td>
-                      </tr>
-                      <tr className="hover:bg-zinc-50">
-                        <td className="py-4 pl-4 text-zinc-900 font-medium">cello online</td>
-                        <td className="py-4 text-zinc-700">8</td>
-                        <td className="py-4 text-zinc-700">590</td>
-                        <td className="py-4 text-zinc-700">9</td>
-                        <td className="py-4 text-zinc-700">0.16</td>
-                      </tr>
-                      <tr className="hover:bg-zinc-50">
-                        <td className="py-4 pl-4 text-zinc-900 font-medium">online cello</td>
-                        <td className="py-4 text-zinc-700">6</td>
-                        <td className="py-4 text-zinc-700">590</td>
-                        <td className="py-4 text-zinc-700">8</td>
-                        <td className="py-4 text-zinc-700">0.16</td>
-                      </tr>
-                      <tr className="hover:bg-zinc-50">
-                        <td className="py-4 pl-4 text-zinc-900 font-medium">battey</td>
-                        <td className="py-4 text-zinc-700">10</td>
-                        <td className="py-4 text-zinc-700">720</td>
-                        <td className="py-4 text-zinc-700">7</td>
-                        <td className="py-4 text-zinc-700">0.22</td>
-                      </tr>
-                      <tr className="hover:bg-zinc-50">
-                        <td className="py-4 pl-4 text-zinc-900 font-medium">concerto cello</td>
-                        <td className="py-4 text-zinc-700">8</td>
-                        <td className="py-4 text-zinc-700">500</td>
-                        <td className="py-4 text-zinc-700">16</td>
-                        <td className="py-4 text-zinc-700">0.04</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+
+              <p className="text-zinc-700 mb-6 leading-relaxed">
+                The focus is on "easy win" keywords – typically longer, more specific phrases (long-tail keywords) – that target users with specific needs or questions related to cello playing, education, repertoire, and careers.
+              </p>
+              <p className="text-zinc-700 mb-8 leading-relaxed">
+                While these keywords might have lower individual search volume compared to broad terms, they often attract a highly relevant audience and face less competition, potentially leading to higher engagement and conversion rates. CelloBello.org, as a rich educational resource, is well-positioned to target these specific user intents.
+              </p>
+
+              <h4 className="text-xl font-semibold mb-4">Keyword Recommendations by Category</h4>
+              <p className="text-zinc-600 mb-6">
+                The following keywords are organized into logical categories based on CelloBello.org's content and user search intent. Consider incorporating these phrases naturally into existing content (lesson descriptions, blog posts, page titles, headings, image alt text, meta descriptions) or creating new, targeted content.
+              </p>
+
+              <div className="space-y-6">
+                {/* 1. Core Strengths */}
+                <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                  <h4 className="text-lg font-semibold mb-3">1. Core Strengths & High-Volume Opportunities</h4>
+                  <p className="text-sm text-zinc-600 mb-4">Leverage CelloBello's existing authority and target terms with significant search interest. Validate competition levels for higher volume terms.</p>
+                  <div className="space-y-4">
+                    <Card className="bg-white p-4 rounded-lg border border-zinc-100">
+                      <h5 className="font-medium mb-2 text-zinc-800">Cello Resources</h5>
+                      <p className="text-xs text-zinc-500 mb-2">(Existing Rank #1 for "cello resources")</p>
+                      <ul className="list-disc list-inside space-y-1 text-zinc-700 text-sm pl-2">
+                        <li>free cello resources</li>
+                        <li>cello resources for beginners</li>
+                        <li>cello resources for adults</li>
+                        <li>online cello resources</li>
+                        <li>famous cellists masterclasses online resource</li>
+                      </ul>
+                    </Card>
+                    <Card className="bg-white p-4 rounded-lg border border-zinc-100">
+                      <h5 className="font-medium mb-2 text-zinc-800">Cello Competitions</h5>
+                      <p className="text-xs text-zinc-500 mb-2">(Existing Rank #2 for "cello competitions")</p>
+                      <ul className="list-disc list-inside space-y-1 text-zinc-700 text-sm pl-2">
+                        <li>upcoming cello competitions</li>
+                        <li>youth cello competitions</li>
+                        <li>international cello competitions [Year, e.g., 2025/2026]</li>
+                        <li>cello competition repertoire requirements guide</li>
+                        <li>how to prepare for a cello competition</li>
+                        <li>preparing for first cello competition</li>
+                        <li>mock cello audition tips</li>
+                      </ul>
+                    </Card>
+                    <Card className="bg-white p-4 rounded-lg border border-zinc-100">
+                      <h5 className="font-medium mb-2 text-zinc-800">Cello Jobs & Career Opportunities</h5>
+                      <ul className="list-disc list-inside space-y-1 text-zinc-700 text-sm pl-2">
+                        <li>cello jobs</li>
+                        <li>cello teaching jobs</li>
+                        <li>finding cello teaching positions internationally</li>
+                        <li>orchestra cello positions</li>
+                        <li>preparing for cello orchestra auditions excerpts</li>
+                        <li>cello audition preparation</li>
+                      </ul>
+                    </Card>
+                    <Card className="bg-white p-4 rounded-lg border border-zinc-100">
+                      <h5 className="font-medium mb-2 text-zinc-800">General High-Volume / Foundational Terms</h5>
+                      <ul className="list-disc list-inside space-y-1 text-zinc-700 text-sm pl-2">
+                        <li>cello bello <span className="text-xs text-zinc-500">(Important branded term)</span></li>
+                        <li>cello concerto <span className="text-xs text-zinc-500">(Note: High volume, potentially high competition)</span></li>
+                        <li>concerto cello</li>
+                        <li>cello online</li>
+                        <li>playing cello</li>
+                        <li>cellist / a cellist</li>
+                        <li>canon in d cello <span className="text-xs text-zinc-500">(If relevant content exists)</span></li>
+                      </ul>
+                    </Card>
+                  </div>
+                </Card>
+
+                {/* 2. Cello Technique & Practice */}
+                <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                  <h4 className="text-lg font-semibold mb-3">2. Cello Technique & Practice</h4>
+                  <p className="text-sm text-zinc-600 mb-4">Target users seeking specific advice on improving technique and practice habits.</p>
+                  <div className="space-y-4">
+                    <Card className="bg-white p-4 rounded-lg border border-zinc-100">
+                      <h5 className="font-medium mb-2 text-zinc-800">Bowing Technique</h5>
+                      <ul className="list-disc list-inside space-y-1 text-zinc-700 text-sm pl-2">
+                        <li>cello bowing exercises for smooth tone</li>
+                        <li>cello bowing techniques</li>
+                        <li>straight bowing</li>
+                        <li>Paul Katz cello bowing tips <span className="text-xs text-zinc-500">(Leverage specific instructor content)</span></li>
+                        <li>cello spiccato bowing technique tutorial</li>
+                        <li>developing cello ricochet bowing</li>
+                        <li>cello bow hold / cello bow holding</li>
+                        <li>how to hold a cello bow / how do you hold a cello bow</li>
+                        <li>history of the cello bow development</li>
+                      </ul>
+                    </Card>
+                    <Card className="bg-white p-4 rounded-lg border border-zinc-100">
+                      <h5 className="font-medium mb-2 text-zinc-800">Left Hand & Intonation</h5>
+                      <ul className="list-disc list-inside space-y-1 text-zinc-700 text-sm pl-2">
+                        <li>left hand cello exercises for intonation</li>
+                        <li>cello thumb position exercises for accuracy</li>
+                        <li>cello thumb position exercises for beginners</li>
+                        <li>improving cello shifting accuracy exercises</li>
+                        <li>cello double stop intonation practice</li>
+                        <li>solving left hand pain cello playing</li>
+                        <li>cello fingering techniques</li>
+                      </ul>
+                    </Card>
+                    <Card className="bg-white p-4 rounded-lg border border-zinc-100">
+                      <h5 className="font-medium mb-2 text-zinc-800">Practice Methods & Musicianship</h5>
+                      <ul className="list-disc list-inside space-y-1 text-zinc-700 text-sm pl-2">
+                        <li>how to practice cello vibrato consistently</li>
+                        <li>cello vibrato technique</li>
+                        <li>Feuillard cello exercises guide</li>
+                        <li>cello practice routine for intermediate players</li>
+                        <li>cello practice routine</li>
+                        <li>cello scale practice methods</li>
+                        <li>mental rehearsal techniques for cellists</li>
+                        <li>positive self-talk for musicians confidence</li>
+                        <li>how to use a metronome for cello practice effectively</li>
+                        <li>cello self-teaching tips</li>
+                        <li>cello warm-up exercises for adults</li>
+                        <li>common cello technique mistakes to avoid</li>
+                        <li>how to develop cello tone quality</li>
+                        <li>benefits of Alexander Technique for cellists</li>
+                      </ul>
+                    </Card>
+                  </div>
+                </Card>
+
+                {/* 3. Cello Repertoire & Interpretation */}
+                <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                  <h4 className="text-lg font-semibold mb-3">3. Cello Repertoire & Interpretation</h4>
+                  <p className="text-sm text-zinc-600 mb-4">Focus on specific pieces, composers, and interpretive approaches.</p>
+                  <ul className="list-disc list-inside space-y-1 text-zinc-700 text-sm pl-2">
+                    <li>interpreting Bach cello suites historically informed</li>
+                    <li>Bach cello suite interpretation</li>
+                    <li>bowing techniques for Dvorak Cello Concerto</li>
+                    <li>understanding Shostakovich cello sonata form</li>
+                    <li>analysis of [Specific Piece featured on site, e.g., Schumann Adagio & Allegro] <span className="text-xs text-zinc-500">(Use specific pieces)</span></li>
+                    <li>preparing [Specific Piece] for cello performance <span className="text-xs text-zinc-500">(Use specific pieces)</span></li>
+                    <li>historical context of [Specific Composer]'s cello works <span className="text-xs text-zinc-500">(Use specific composers)</span></li>
+                    <li>cello sonata technique</li>
+                    <li>cello concerto fingerings</li>
+                    <li>valse sentimentale <span className="text-xs text-zinc-500">(If relevant content exists)</span></li>
+                  </ul>
+                </Card>
+
+                {/* 4. Ensemble & Chamber Music */}
+                <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                  <h4 className="text-lg font-semibold mb-3">4. Ensemble & Chamber Music</h4>
+                  <p className="text-sm text-zinc-600 mb-4">Target users interested in playing with others, particularly string ensembles.</p>
+                  <ul className="list-disc list-inside space-y-1 text-zinc-700 text-sm pl-2">
+                    <li>string quartet rehearsal tips for intonation</li>
+                    <li>chamber music communication techniques</li>
+                    <li>chamber music concert</li>
+                    <li>balancing dynamics in a string quartet</li>
+                    <li>rehearsal strategies for amateur string quartet</li>
+                    <li>how to lead a string quartet rehearsal</li>
+                    <li>intonation exercises for string ensembles</li>
+                    <li>tips for playing cello in a string trio</li>
+                    <li>violin and viola <span className="text-xs text-zinc-500">(If content discusses interactions)</span></li>
+                  </ul>
+                </Card>
+
+                {/* 5. Educational Content & General Information */}
+                <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                  <h4 className="text-lg font-semibold mb-3">5. Educational Content & General Information</h4>
+                  <p className="text-sm text-zinc-600 mb-4">Cover broader educational topics, beginner resources, and instrument care.</p>
+                  <ul className="list-disc list-inside space-y-1 text-zinc-700 text-sm pl-2">
+                    <li>cello music theory basics</li>
+                    <li>cello maintenance tips for students</li>
+                    <li>comparing different types of cello strings</li>
+                    <li>gut strings</li>
+                    <li>kids cello / children's cello</li>
+                    <li>quartertones <span className="text-xs text-zinc-500">(If relevant content exists)</span></li>
+                    <li>david popper <span className="text-xs text-zinc-500">(If relevant content exists)</span></li>
+                    <li>postcriptum <span className="text-xs text-zinc-500">(If relevant content exists)</span></li>
+                  </ul>
+                </Card>
+
+                {/* 6. Expert Content & Specific Instructors */}
+                <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                  <h4 className="text-lg font-semibold mb-3">6. Expert Content & Specific Instructors</h4>
+                  <p className="text-sm text-zinc-600 mb-4">Highlight unique masterclass content and insights from featured professionals.</p>
+                  <ul className="list-disc list-inside space-y-1 text-zinc-700 text-sm pl-2">
+                    <li>cello masterclass videos</li>
+                    <li>free cello masterclass</li>
+                    <li>starker <span className="text-xs text-zinc-500">(If content relates to Janos Starker)</span></li>
+                    <li>cello interpretation masterclass</li>
+                    <li>online cello masterclass [Specific Cellist/Piece featured on site] <span className="text-xs text-zinc-500">(Use specific names)</span></li>
+                    <li>professional cellist advice</li>
+                    <li>cellist interviews</li>
+                    <li>cello performance tips</li>
+                    <li>[Specific Cellist featured on site] teaching philosophy <span className="text-xs text-zinc-500">(Highlight your instructors)</span></li>
+                  </ul>
+                </Card>
+
+                {/* Implementation Strategy */}
+                <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                  <h4 className="text-lg font-semibold mb-3">Implementation Strategy & Next Steps</h4>
+                  <div className="space-y-4 text-sm text-zinc-700">
+                    <div>
+                      <h5 className="font-medium mb-2 text-zinc-800">Prioritize & Validate:</h5>
+                      <p className="mb-2">Use SEO tools (e.g., Google Keyword Planner, SEMrush, Ahrefs, Moz) to:</p>
+                      <ul className="list-disc list-inside space-y-1 pl-4">
+                        <li>Check estimated monthly search volume for these terms.</li>
+                        <li>Assess the competition level or ranking difficulty.</li>
+                        <li>Discover related keyword variations and user questions.</li>
+                        <li>Prioritize keywords based on relevance, volume, and achievable difficulty.</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 className="font-medium mb-2 text-zinc-800">Content Audit & Optimization:</h5>
+                      <ul className="list-disc list-inside space-y-1 pl-4">
+                        <li>Review existing content (pages, posts, lesson descriptions) to see where these keywords can be naturally integrated.</li>
+                        <li>Optimize titles (H1), headings (H2, H3), body text, image alt text, and meta descriptions.</li>
+                        <li>Crucially: Replace bracketed placeholders like <code className="bg-zinc-200 px-1 py-0.5 rounded">[Specific Cellist/Piece featured on site]</code> with actual names from CelloBello's content to create highly specific long-tail keywords.</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 className="font-medium mb-2 text-zinc-800">Content Creation:</h5>
+                      <p>Identify keyword gaps and create new, high-quality content (blog posts, guides, videos, resource pages) specifically targeting valuable keywords. Consider creating "pillar pages" for major topics (e.g., "The Ultimate Guide to Cello Bowing Techniques").</p>
+                    </div>
+                    <div>
+                      <h5 className="font-medium mb-2 text-zinc-800">Internal Linking:</h5>
+                      <p>Link related pages and posts together using keyword-rich anchor text to distribute authority and improve navigation.</p>
+                    </div>
+                    <div>
+                      <h5 className="font-medium mb-2 text-zinc-800">Technical SEO Quick Wins:</h5>
+                      <ul className="list-disc list-inside space-y-1 pl-4">
+                        <li>Ensure URL structures are clean and include target keywords where appropriate.</li>
+                        <li>Implement schema markup for relevant content types (e.g., Educational Events, Courses, Articles).</li>
+                        <li>Optimize image file sizes and ensure all images have descriptive alt text.</li>
+                        <li>Prioritize mobile-friendliness and page speed.</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 className="font-medium mb-2 text-zinc-800">Track Success:</h5>
+                      <ul className="list-disc list-inside space-y-1 pl-4">
+                        <li>Use Google Search Console to monitor rankings and impressions for target keywords.</li>
+                        <li>Use Google Analytics to measure organic traffic growth to optimized pages.</li>
+                        <li>Track relevant engagement metrics (e.g., time on page, bounce rate, newsletter signups).</li>
+                      </ul>
+                    </div>
+                  </div>
+                </Card>
               </div>
-              
-              <div className="mb-8">
-                <h4 className="text-lg font-medium mb-4">Keyword Clusters & Opportunities</h4>
-                
-                <div className="grid md:grid-cols-2 gap-6 mb-8">
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-3">Cello Bow Hold Cluster</h5>
-                    <p className="text-sm text-zinc-600 mb-4">High-volume, low-difficulty keywords with strong potential for quick wins</p>
-                    <div className="overflow-x-auto">
-                      <table className="min-w-full">
-                        <thead>
-                          <tr className="border-b border-zinc-200">
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Keyword</th>
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Position</th>
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Vol.</th>
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Diff.</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-zinc-100">
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">cello bow hold</td>
-                            <td className="py-2 text-xs text-zinc-700">13</td>
-                            <td className="py-2 text-xs text-zinc-700">920</td>
-                            <td className="py-2 text-xs text-zinc-700">4</td>
-                          </tr>
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">cello bow holding</td>
-                            <td className="py-2 text-xs text-zinc-700">22</td>
-                            <td className="py-2 text-xs text-zinc-700">920</td>
-                            <td className="py-2 text-xs text-zinc-700">4</td>
-                          </tr>
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">how to hold a cello bow</td>
-                            <td className="py-2 text-xs text-zinc-700">13</td>
-                            <td className="py-2 text-xs text-zinc-700">590</td>
-                            <td className="py-2 text-xs text-zinc-700">4</td>
-                          </tr>
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">how do you hold a cello bow</td>
-                            <td className="py-2 text-xs text-zinc-700">14</td>
-                            <td className="py-2 text-xs text-zinc-700">590</td>
-                            <td className="py-2 text-xs text-zinc-700">5</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </Card>
-                  
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-3">Playing Cello Cluster</h5>
-                    <p className="text-sm text-zinc-600 mb-4">High-volume, minimal competition terms with ranking potential</p>
-                    <div className="overflow-x-auto">
-                      <table className="min-w-full">
-                        <thead>
-                          <tr className="border-b border-zinc-200">
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Keyword</th>
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Position</th>
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Vol.</th>
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Comp.</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-zinc-100">
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">playing cello</td>
-                            <td className="py-2 text-xs text-zinc-700">25</td>
-                            <td className="py-2 text-xs text-zinc-700">910</td>
-                            <td className="py-2 text-xs text-zinc-700">0.01</td>
-                          </tr>
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">cellist</td>
-                            <td className="py-2 text-xs text-zinc-700">14</td>
-                            <td className="py-2 text-xs text-zinc-700">1.3K</td>
-                            <td className="py-2 text-xs text-zinc-700">0</td>
-                          </tr>
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">a cellist</td>
-                            <td className="py-2 text-xs text-zinc-700">15</td>
-                            <td className="py-2 text-xs text-zinc-700">590</td>
-                            <td className="py-2 text-xs text-zinc-700">0.33</td>
-                          </tr>
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">canon in d cello</td>
-                            <td className="py-2 text-xs text-zinc-700">14</td>
-                            <td className="py-2 text-xs text-zinc-700">480</td>
-                            <td className="py-2 text-xs text-zinc-700">0.15</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </Card>
-                </div>
-                
-                <div className="grid md:grid-cols-2 gap-6">
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-3">Educational Content Cluster</h5>
-                    <p className="text-sm text-zinc-600 mb-4">Keywords targeting beginners with good traffic potential</p>
-                    <div className="overflow-x-auto">
-                      <table className="min-w-full">
-                        <thead>
-                          <tr className="border-b border-zinc-200">
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Keyword</th>
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Position</th>
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Vol.</th>
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Diff.</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-zinc-100">
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">kids cello</td>
-                            <td className="py-2 text-xs text-zinc-700">10</td>
-                            <td className="py-2 text-xs text-zinc-700">590</td>
-                            <td className="py-2 text-xs text-zinc-700">4</td>
-                          </tr>
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">children's cello</td>
-                            <td className="py-2 text-xs text-zinc-700">13</td>
-                            <td className="py-2 text-xs text-zinc-700">590</td>
-                            <td className="py-2 text-xs text-zinc-700">4</td>
-                          </tr>
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">valse sentimentale</td>
-                            <td className="py-2 text-xs text-zinc-700">5</td>
-                            <td className="py-2 text-xs text-zinc-700">590</td>
-                            <td className="py-2 text-xs text-zinc-700">12</td>
-                          </tr>
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">quartertones</td>
-                            <td className="py-2 text-xs text-zinc-700">9</td>
-                            <td className="py-2 text-xs text-zinc-700">590</td>
-                            <td className="py-2 text-xs text-zinc-700">15</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </Card>
-                  
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-3">String Instruments Cluster</h5>
-                    <p className="text-sm text-zinc-600 mb-4">Related string instrument keywords with high value</p>
-                    <div className="overflow-x-auto">
-                      <table className="min-w-full">
-                        <thead>
-                          <tr className="border-b border-zinc-200">
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Keyword</th>
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Position</th>
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Vol.</th>
-                            <th className="text-left py-2 text-xs font-medium text-zinc-500">Comp.</th>
-                          </tr>
-                        </thead>
-                        <tbody className="divide-y divide-zinc-100">
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">gut strings</td>
-                            <td className="py-2 text-xs text-zinc-700">92-95</td>
-                            <td className="py-2 text-xs text-zinc-700">880</td>
-                            <td className="py-2 text-xs text-zinc-700">0.43</td>
-                          </tr>
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">violin and viola</td>
-                            <td className="py-2 text-xs text-zinc-700">25</td>
-                            <td className="py-2 text-xs text-zinc-700">880</td>
-                            <td className="py-2 text-xs text-zinc-700">0.06</td>
-                          </tr>
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">david popper</td>
-                            <td className="py-2 text-xs text-zinc-700">5</td>
-                            <td className="py-2 text-xs text-zinc-700">480</td>
-                            <td className="py-2 text-xs text-zinc-700">0.01</td>
-                          </tr>
-                          <tr className="hover:bg-zinc-100">
-                            <td className="py-2 text-xs text-zinc-900">postcriptum</td>
-                            <td className="py-2 text-xs text-zinc-700">15</td>
-                            <td className="py-2 text-xs text-zinc-700">540</td>
-                            <td className="py-2 text-xs text-zinc-700">0</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </Card>
-                </div>
-              </div>
-              
-              <div>
-                <h4 className="text-lg font-medium mb-4">Key Recommendations</h4>
-                <div className="space-y-4">
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Target Cello Bow Hold Content</h5>
-                    <p className="text-zinc-700">Create a comprehensive tutorial on cello bow holding techniques to capitalize on the high-volume, low-difficulty cluster of keywords (920 monthly searches, difficulty 4). Currently ranking around positions 13-22, a small optimization effort could bring these terms to page 1.</p>
-                    <div className="flex mt-4 gap-2">
-                      <Badge className="bg-emerald-100 text-emerald-800 hover:bg-emerald-200">High Priority</Badge>
-                      <Badge className="bg-zinc-100 text-zinc-800 hover:bg-zinc-200">Quick Win</Badge>
-                    </div>
-                  </Card>
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Optimize for "Cellist" Keywords</h5>
-                    <p className="text-zinc-700">Enhance content targeting "cellist" and "playing cello" terms which have high volume (910-1.3K monthly searches) with virtually no competition (0.01-0) and could be moved from positions 14-25 to top positions with targeted optimization.</p>
-                    <div className="flex mt-4 gap-2">
-                      <Badge className="bg-emerald-100 text-emerald-800 hover:bg-emerald-200">High Priority</Badge>
-                    </div>
-                  </Card>
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Create Educational Content for Children</h5>
-                    <p className="text-zinc-700">Develop content specifically for children's cellos and beginner lessons targeting keywords like "kids cello" and "children's cello" (590 monthly searches) which have low difficulty (4) and high ranking potential.</p>
-                    <div className="flex mt-4 gap-2">
-                      <Badge className="bg-blue-100 text-blue-800 hover:bg-blue-200">Medium Priority</Badge>
-                    </div>
-                  </Card>
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Expand String Instrument Coverage</h5>
-                    <p className="text-zinc-700">Consider developing related string instrument content, particularly for "gut strings" which has substantial volume (880 searches) and potential for cross-promotion to cello content.</p>
-                    <div className="flex mt-4 gap-2">
-                      <Badge className="bg-blue-100 text-blue-800 hover:bg-blue-200">Medium Priority</Badge>
-                      <Badge className="bg-zinc-100 text-zinc-800 hover:bg-zinc-200">Long-term</Badge>
-                    </div>
-                  </Card>
-                </div>
-              </div>
+
+              <p className="text-zinc-700 mt-8 leading-relaxed">
+                By systematically implementing these recommendations, CelloBello.org can enhance its search engine visibility, attract a more qualified and engaged audience, and solidify its position as a leading online resource for the global cello community.
+              </p>
             </TabsContent>
             
             <TabsContent value="competitors" className="p-8 bg-white rounded-2xl shadow-sm">
