@@ -211,7 +211,8 @@ export default function Home() {
       <section className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">Actionable Recommendations</h2>
-          <p className="text-lg text-zinc-600 max-w-3xl mx-auto text-center mb-16">Prioritized solutions to drive more traffic to cellobello.org, based on impact and implementation effort</p>
+          <p className="text-lg text-zinc-600 max-w-3xl mx-auto text-center mb-4">Prioritized solutions to drive more traffic to cellobello.org, based on impact and implementation effort.</p>
+          <p className="text-sm text-zinc-500 max-w-3xl mx-auto text-center mb-16">(Note: Estimated hours are approximate and may vary based on implementation details.)</p>
           
           <div className="space-y-16">
             {/* High Impact Category */}
@@ -253,6 +254,10 @@ export default function Home() {
                         <div className="bg-amber-500 h-2 rounded-full" style={{ width: '50%' }}></div>
                       </div>
                     </div>
+                    {/* Removed Implementation Effort Bar */}
+                    <div className="text-sm font-medium mt-4">
+                      Estimated Hours: <span className="font-semibold">15-25 Hours</span>
+                    </div>
                   </div>
                 </Card>
                 
@@ -275,14 +280,9 @@ export default function Home() {
                         <div className="bg-emerald-500 h-2 rounded-full" style={{ width: '80%' }}></div>
                       </div>
                     </div>
-                    <div className="space-y-1">
-                      <div className="flex justify-between text-sm">
-                        <span className="font-medium">Implementation effort</span>
-                        <span className="text-amber-600 font-medium">Moderate</span>
-                      </div>
-                      <div className="w-full bg-zinc-100 rounded-full h-2">
-                        <div className="bg-amber-500 h-2 rounded-full" style={{ width: '60%' }}></div>
-                      </div>
+                    {/* Removed Implementation Effort Bar */}
+                     <div className="text-sm font-medium mt-4">
+                      Estimated Hours: <span className="font-semibold">15-25 Hours</span>
                     </div>
                   </div>
                 </Card>
@@ -328,6 +328,10 @@ export default function Home() {
                         <div className="bg-emerald-500 h-2 rounded-full" style={{ width: '40%' }}></div>
                       </div>
                     </div>
+                    {/* Removed Implementation Effort Bar */}
+                    <div className="text-sm font-medium mt-4">
+                      Estimated Hours: <span className="font-semibold">15-25 Hours</span>
+                    </div>
                   </div>
                 </Card>
                 
@@ -359,6 +363,10 @@ export default function Home() {
                         <div className="bg-red-500 h-2 rounded-full" style={{ width: '75%' }}></div>
                       </div>
                     </div>
+                    {/* Removed Implementation Effort Bar */}
+                    <div className="text-sm font-medium mt-4">
+                      Estimated Hours: <span className="font-semibold">20-30 Hours</span>
+                    </div>
                   </div>
                 </Card>
               </div>
@@ -381,9 +389,9 @@ export default function Home() {
                     <p className="text-zinc-700 text-sm mb-4">
                       Set up 301 redirects for consistent domain version to consolidate SEO signals and prevent duplicate content penalties.
                     </p>
-                    <div className="flex items-center justify-between text-sm">
-                      <Badge className="bg-zinc-200 text-zinc-800">Easy Fix</Badge>
+                    <div className="flex items-center justify-between text-sm mt-4">
                       <span className="text-zinc-500">Medium Impact</span>
+                       <span className="font-medium">Est. Hours: 1-2</span>
                     </div>
                   </div>
                 </Card>
@@ -394,9 +402,9 @@ export default function Home() {
                     <p className="text-zinc-700 text-sm mb-4">
                       Add descriptive alt text for images missing it to improve accessibility and boost image search potential.
                     </p>
-                    <div className="flex items-center justify-between text-sm">
-                      <Badge className="bg-zinc-200 text-zinc-800">Easy-Medium</Badge>
+                    <div className="flex items-center justify-between text-sm mt-4">
                       <span className="text-zinc-500">Medium Impact</span>
+                       <span className="font-medium">Est. Hours: 2-4</span>
                     </div>
                   </div>
                 </Card>
@@ -407,9 +415,9 @@ export default function Home() {
                     <p className="text-zinc-700 text-sm mb-4">
                       Improve anchor text on 108 non-descriptive internal links to strengthen topic relevance signals.
                     </p>
-                    <div className="flex items-center justify-between text-sm">
-                      <Badge className="bg-zinc-200 text-zinc-800">Moderate</Badge>
+                    <div className="flex items-center justify-between text-sm mt-4">
                       <span className="text-zinc-500">Medium Impact</span>
+                      <span className="font-medium">Est. Hours: 8-12</span>
                     </div>
                   </div>
                 </Card>
@@ -425,7 +433,7 @@ export default function Home() {
                 <div>
                   <h4 className="text-lg font-semibold mb-2">Implementation Approach</h4>
                   <p className="text-zinc-700">
-                    The recommendations above are arranged in order of traffic impact. For maximum results, implement the high-impact recommendations first, focusing on technical SEO and on-page factors that directly affect search visibility before proceeding to more resource-intensive content creation efforts.
+                    The recommendations above are arranged in order of traffic impact. For maximum results, implement the high-impact recommendations first, focusing on technical SEO and on-page factors that directly affect search visibility before proceeding to more resource-intensive content creation efforts. Estimated hours provide a rough guide for planning.
                   </p>
                 </div>
               </div>
@@ -1166,7 +1174,7 @@ export default function Home() {
                       <ul className="list-disc list-inside space-y-1 pl-4">
                         <li>Ensure URL structures are clean and include target keywords where appropriate.</li>
                         <li>Implement schema markup for relevant content types (e.g., Educational Events, Courses, Articles).</li>
-                        <li>Optimize image file sizes and ensure all images have descriptive alt text.</li>
+                        <li>Optimize image file sizes and ensure all images have descriptive alt text, incorporating relevant keywords naturally.</li>
                         <li>Prioritize mobile-friendliness and page speed.</li>
                       </ul>
                     </div>
