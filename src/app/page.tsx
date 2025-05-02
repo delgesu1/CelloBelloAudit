@@ -236,6 +236,10 @@ export default function Home() {
                     <p className="text-zinc-700 mb-5">
                       Resolve 432 meta tag issues (missing, duplicate, and poorly written titles & descriptions) to significantly improve search visibility and click-through rates from search results.
                     </p>
+                    <p className="text-xs text-zinc-500 mb-4 italic">
+                      Example Title: "Cello Bowing Techniques: A Comprehensive Guide | CelloBello"<br/>
+                      Example Meta: "Explore detailed guides and masterclass insights on cello bowing techniques, vibrato, and more from world-class instructors on CelloBello.org."
+                    </p>
                     <div className="space-y-1 mb-4">
                       <div className="flex justify-between text-sm">
                         <span className="font-medium">Traffic impact</span>
@@ -270,6 +274,10 @@ export default function Home() {
                     </div>
                     <p className="text-zinc-700 mb-5">
                       Fix H1 tag issues (missing, multiple, duplicate, too long) across 539 content issues to dramatically improve search engine understanding of page topics and relevance.
+                    </p>
+                    <p className="text-xs text-zinc-500 mb-4 italic">
+                      Example H1: "Mastering Cello Vibrato"<br/>
+                      Example H2s: "Understanding Vibrato Mechanics", "Practice Exercises for Consistent Vibrato"
                     </p>
                     <div className="space-y-1 mb-4">
                       <div className="flex justify-between text-sm">
@@ -398,11 +406,13 @@ export default function Home() {
                 
                 <Card className="border-0 shadow-sm hover:shadow-md transition-shadow rounded-2xl bg-zinc-50">
                   <div className="p-6">
-                    <h4 className="text-lg font-semibold mb-3">Image Alt Text</h4>
+                    <h4 className="text-lg font-semibold mb-3">Image Alt Text & Filenames</h4>
                     <p className="text-zinc-700 text-sm mb-4">
-                      Add descriptive alt text for images missing it to improve accessibility and boost image search potential.
+                      Add descriptive alt text for images missing it. Use descriptive filenames (e.g., `cello-thumb-position.jpg`) to improve accessibility and boost image search potential.
+                      <br/>
+                      <span className="text-xs italic text-zinc-500 mt-1 block">Example Alt Text: "Cellist demonstrating correct thumb position technique"</span>
                     </p>
-                    <div className="flex items-center justify-between text-sm mt-4">
+                     <div className="flex items-center justify-between text-sm mt-4">
                       <span className="text-zinc-500">Medium Impact</span>
                        <span className="font-medium">Est. Hours: 2-4</span>
                     </div>
@@ -419,6 +429,15 @@ export default function Home() {
                       <span className="text-zinc-500">Medium Impact</span>
                       <span className="font-medium">Est. Hours: 8-12</span>
                     </div>
+                  </div>
+                </Card>
+                {/* NEW CARD */}
+                <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                  <h5 className="font-medium mb-2">Implement Structured Data (Schema Markup)</h5>
+                  <p className="text-zinc-700">Add schema markup to help search engines better understand the context of your content. Use types like `Organization`, `Article`, `Course`, `EducationalEvent`, `VideoObject`, and `Review`/`AggregateRating` where appropriate.</p>
+                  <div className="flex mt-4 gap-2">
+                    <Badge className="bg-blue-100 text-blue-800 hover:bg-blue-200">Medium Priority</Badge>
+                    <Badge className="bg-zinc-100 text-zinc-800 hover:bg-zinc-200">Moderate Complexity</Badge>
                   </div>
                 </Card>
               </div>
@@ -1172,7 +1191,7 @@ export default function Home() {
                     <div>
                       <h5 className="font-medium mb-2 text-zinc-800">Technical SEO Quick Wins:</h5>
                       <ul className="list-disc list-inside space-y-1 pl-4">
-                        <li>Ensure URL structures are clean and include target keywords where appropriate.</li>
+                        <li>Ensure URL structures are clean, descriptive, and include target keywords where appropriate (e.g., `/cello-technique/bowing-exercises/`).</li>
                         <li>Implement schema markup for relevant content types (e.g., Educational Events, Courses, Articles).</li>
                         <li>Optimize image file sizes and ensure all images have descriptive alt text, incorporating relevant keywords naturally.</li>
                         <li>Prioritize mobile-friendliness and page speed.</li>
