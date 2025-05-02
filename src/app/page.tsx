@@ -1217,92 +1217,379 @@ export default function Home() {
             <TabsContent value="competitors" className="p-8 bg-white rounded-2xl shadow-sm">
               <h3 className="text-2xl font-semibold mb-6">Competitive Analysis</h3>
               
-              <div className="mb-8">
-                <h4 className="text-lg font-medium mb-4">Current Positioning</h4>
-                <div className="space-y-4">
+              <p className="text-zinc-700 mb-8 leading-relaxed">
+                Key online competitors in cello educational resources, focusing on technique, musicality, and chamber music.
+              </p>
+
+              {/* Specialized Platforms Section */}
+              <div className="mb-12">
+                <h4 className="text-xl font-semibold mb-6 border-b pb-2">Specialized Platforms</h4>
+                <div className="space-y-6">
+                  {/* Tonebase Cello Card */}
                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Tonebase Cello (tonebase.co/cello)</h5>
-                    <p className="text-zinc-700 mb-3">Premium platform with celebrity instructors and high production value</p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Premium Pricing</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Celebrity Instructors</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Mobile App</span>
+                    <h5 className="font-medium mb-4 text-lg">Tonebase Cello</h5>
+                    {/* Image Removed */}
+                    <div className="grid md:grid-cols-3 gap-4 text-sm">
+                      <div>
+                        <h6 className="font-semibold mb-2 text-zinc-800">Key Points:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                          <li>Premium platform, world-class instructors</li>
+                          <li>High production value, in-depth courses</li>
+                          <li>Focus on advanced musicality & classical interpretation</li>
+                          <li>Large active community, live events</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h6 className="font-semibold mb-2 text-zinc-800">Content Focus:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                          <li>Detailed technique & interpretation</li>
+                          <li>Standard repertoire masterclasses</li>
+                          <li>Musicality/expression coaching</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h6 className="font-semibold mb-2 text-zinc-800">Audience:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                          <li>Intermediate-advanced & professional</li>
+                          <li>Serious adult learners, conservatory students</li>
+                        </ul>
+                      </div>
                     </div>
                   </Card>
-                  
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Emily Wright (emilywright.net)</h5>
-                    <p className="text-zinc-700 mb-3">Individual creator with personality-driven content</p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Personal Brand</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Blog-Centric</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Regular Updates</span>
+
+                  {/* ArtistWorks Cello School Card */}
+                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-4 text-lg">ArtistWorks Cello School (Mike Block)</h5>
+                     <div className="grid md:grid-cols-3 gap-4 text-sm">
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Key Points:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Multi-style (classical, folk, jazz, etc.)</li>
+                           <li>Video Exchange Learning® method</li>
+                           <li>Grammy-winning instructor</li>
+                           <li>Structured curriculum, personalized feedback option</li>
+                           <li>Focus on improvisation/creativity</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Content Focus:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Classical fundamentals & non-classical styles</li>
+                           <li>Improvisation, diverse bowing</li>
+                           <li>Applied music theory</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Audience:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Multi-style learners, improvisers</li>
+                           <li>Adults seeking versatility</li>
+                        </ul>
+                      </div>
                     </div>
                   </Card>
-                  
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">The Strad (thestrad.com)</h5>
-                    <p className="text-zinc-700 mb-3">Established publication with strong domain authority and extensive string instrument content</p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Domain Trust: 40/100</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">4.6K Monthly Visits</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">53.3K Backlinks</span>
+
+                  {/* Cello Discovery Card */}
+                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-4 text-lg">Cello Discovery</h5>
+                     <div className="grid md:grid-cols-3 gap-4 text-sm">
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Key Points:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Comprehensive courses for adults</li>
+                           <li>Focus on foundational technique</li>
+                           <li>Interactive scores, virtual cello</li>
+                           <li>Community-oriented, strong repertoire focus</li>
+                           <li>Free resources + premium courses</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Content Focus:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Adult technique building</li>
+                           <li>Sight-reading, structured repertoire</li>
+                           <li>Basic applied theory</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Audience:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Adult beginners/intermediates</li>
+                           <li>Recreational / self-directed learners</li>
+                        </ul>
+                      </div>
                     </div>
                   </Card>
-                  
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Strings Magazine (stringsmagazine.com)</h5>
-                    <p className="text-zinc-700 mb-3">Leading publication covering orchestra, violin, viola, cello, and bass content</p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Domain Trust: 33/100</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">8.1K Monthly Visits</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">13.7K Backlinks</span>
-                    </div>
-                  </Card>
-                  
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Violinist.com</h5>
-                    <p className="text-zinc-700 mb-3">Community-focused platform with forums and blog content for string players</p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Strong Community</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Active Forums</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Regular Updates</span>
-                    </div>
-                  </Card>
-                  
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Maestronet.com</h5>
-                    <p className="text-zinc-700 mb-3">Forum-based community for string instrument discussion and marketplace</p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Active Forums</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Instrument Marketplace</span>
-                      <span className="px-3 py-1 bg-zinc-200 rounded-full text-xs font-medium">Technical Discussions</span>
+
+                  {/* Strings Magazine Card */}
+                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-4 text-lg">Strings Magazine Online Resources</h5>
+                     <div className="grid md:grid-cols-3 gap-4 text-sm">
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Key Points:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>High-quality articles from professionals</li>
+                           <li>Chamber music resources</li>
+                           <li>Technical development features</li>
+                           <li>Many free resources, trusted publication</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Content Focus:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Chamber coaching, technique features</li>
+                           <li>Master cellist interviews</li>
+                           <li>Equipment insights, performance practice</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Audience:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Professional / aspiring professionals</li>
+                           <li>Chamber musicians, teachers</li>
+                           <li>Adult amateurs seeking pro insights</li>
+                        </ul>
+                      </div>
                     </div>
                   </Card>
                 </div>
+              </div>
+
+              {/* Chamber Music Specific Section */}
+              <div className="mb-12">
+                <h4 className="text-xl font-semibold mb-6 border-b pb-2">Chamber Music Specific Resources</h4>
+                 <div className="space-y-6">
+                   {/* CMS Lincoln Center Card */}
+                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-4 text-lg">Chamber Music Society of Lincoln Center</h5>
+                     <div className="grid md:grid-cols-3 gap-4 text-sm">
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Key Points:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>World-class videos & resources</li>
+                           <li>Renowned musician master classes</li>
+                           <li>Extensive performance library</li>
+                           <li>Digital education initiatives</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Content Focus:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Rehearsal techniques, ensemble balance</li>
+                           <li>Repertoire interpretation</li>
+                           <li>Historical performance practices</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Audience:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Chamber enthusiasts & professionals</li>
+                           <li>Conservatory students, serious amateurs</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </Card>
+                  {/* ChamberMusicU Card */}
+                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-4 text-lg">ChamberMusicU</h5>
+                     <div className="grid md:grid-cols-3 gap-4 text-sm">
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Key Points:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Dedicated to chamber music education</li>
+                           <li>Courses for string ensembles</li>
+                           <li>Online coaching, group resources</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Content Focus:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Rehearsal techniques, communication</li>
+                           <li>Balance/intonation in quartets</li>
+                           <li>Repertoire studies, masterclasses</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Audience:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Amateur & university ensembles</li>
+                           <li>Adult players, teachers forming groups</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </Card>
+                </div>
+              </div>
+
+              {/* Technique-Focused Section */}
+              <div className="mb-12">
+                 <h4 className="text-xl font-semibold mb-6 border-b pb-2">Technique-Focused Resources</h4>
+                 <div className="space-y-6">
+                   {/* Cello Professor Card */}
+                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-4 text-lg">Cello Professor (Minna Rose Chung)</h5>
+                     <div className="grid md:grid-cols-3 gap-4 text-sm">
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Key Points:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Detailed technical instruction</li>
+                           <li>University professor perspective</li>
+                           <li>Research-based, ergonomic focus</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Content Focus:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Advanced technical studies & exercises</li>
+                           <li>Left/Right hand technique refinement</li>
+                           <li>Technical practice strategies</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Audience:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>College-level & advanced cellists</li>
+                           <li>Teachers seeking pedagogical resources</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </Card>
+                  {/* Cello Academy Card */}
+                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-4 text-lg">Cello Academy (Hans Zentgraf)</h5>
+                     <div className="grid md:grid-cols-3 gap-4 text-sm">
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Key Points:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Free comprehensive instruction</li>
+                           <li>Systematic, detailed technical videos</li>
+                           <li>European pedagogical tradition</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Content Focus:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Systematic technique development</li>
+                           <li>Bow/Left-hand exercises</li>
+                           <li>Repertoire with technical annotations</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Audience:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Self-directed / budget-conscious learners</li>
+                           <li>Traditional classical cellists</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </Card>
+                 </div>
               </div>
               
-              <div>
-                <h4 className="text-lg font-medium mb-4">Differentiation Strategies</h4>
-                <div className="space-y-4">
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Differentiated Value Proposition</h5>
-                    <p className="text-zinc-700">Clearly communicate what makes cellobello.org unique and position between high-end platforms like Tonebase and established publications like The Strad and Strings Magazine while offering more structure than individual creators.</p>
+              {/* Musicality-Focused Section */}
+              <div className="mb-12">
+                <h4 className="text-xl font-semibold mb-6 border-b pb-2">Musicality-Focused Resources</h4>
+                 <div className="space-y-6">
+                   {/* Cello Mind Card */}
+                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-4 text-lg">Cello Mind (Hans Jensen & Minna Rose Chung)</h5>
+                     <div className="grid md:grid-cols-3 gap-4 text-sm">
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Key Points:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Focus on psychology & artistic development</li>
+                           <li>Mental aspects of technique/musicality</li>
+                           <li>Research-based, innovative expression</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Content Focus:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Mental practice, expressive playing</li>
+                           <li>Overcoming performance anxiety</li>
+                           <li>Interpretation methodologies</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Audience:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Advanced players seeking artistic growth</li>
+                           <li>Players struggling with performance</li>
+                           <li>Teachers focused on mental aspects</li>
+                        </ul>
+                      </div>
+                    </div>
                   </Card>
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Content Strategy Opportunities</h5>
-                    <p className="text-zinc-700">Create more structured learning paths than individual creators but more accessible than premium platforms. Increase content frequency with regular, scheduled updates and develop unique content formats not well-served by competitors.</p>
+                  {/* The Strad Card */}
+                   <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-4 text-lg">The Strad Magazine Online Resources</h5>
+                     <div className="grid md:grid-cols-3 gap-4 text-sm">
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Key Points:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Articles from top performers</li>
+                           <li>Historical perspectives, sound production</li>
+                           <li>Masterclass insights, authority</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Content Focus:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Artistic interpretation, sound production</li>
+                           <li>Historical performance practices</li>
+                           <li>Expression, phrasing, vibrato</li>
+                        </ul>
+                      </div>
+                      <div>
+                         <h6 className="font-semibold mb-2 text-zinc-800">Audience:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                           <li>Professional/aspiring professionals</li>
+                           <li>Teachers, advanced players</li>
+                           <li>Historical performance enthusiasts</li>
+                        </ul>
+                      </div>
+                    </div>
                   </Card>
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Technical and UX Improvements</h5>
-                    <p className="text-zinc-700">Improve mobile experience to compete with Tonebase's app-based approach. Enhance community engagement features and implement structured data to gain advantage in search results.</p>
+                 </div>
+              </div>
+
+              {/* Competitive Analysis Insights Section */}
+              <div className="mb-12">
+                <h4 className="text-xl font-semibold mb-6 border-b pb-2">Competitive Analysis Insights</h4>
+                <div className="space-y-8">
+                  {/* Market Positioning */}
+                  <Card className="p-6 border-0 bg-white rounded-xl shadow-sm">
+                     <h5 className="font-medium mb-4 text-lg">Market Positioning Summary</h5>
+                     <div className="space-y-2 text-sm">
+                       <p><span className="font-semibold">Premium/Professional:</span> Tonebase, CelloBello, Strad, CMS Lincoln Center</p>
+                       <p><span className="font-semibold">Comprehensive Curriculum:</span> ArtistWorks, Cello Discovery, Cello Academy</p>
+                       <p><span className="font-semibold">Specialized Technique/Musicality:</span> Cello Mind, Cello Professor, Strings Mag</p>
+                       <p><span className="font-semibold">Chamber Music Specialization:</span> ChamberMusicU, CelloBello (Ensemble), CMS Lincoln Center</p>
+                     </div>
                   </Card>
-                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
-                    <h5 className="font-medium mb-2">Marketing Enhancements</h5>
-                    <p className="text-zinc-700">More prominently feature instructors and their credentials. Increase visibility of user testimonials and success stories and improve content categorization to help users find relevant resources.</p>
+                  {/* Content Depth vs Breadth */}
+                  <Card className="p-6 border-0 bg-white rounded-xl shadow-sm">
+                     <h5 className="font-medium mb-4 text-lg">Content Focus Summary</h5>
+                     <div className="space-y-2 text-sm">
+                       <p><span className="font-semibold">Deepest Technique:</span> Cello Professor, Tonebase</p>
+                       <p><span className="font-semibold">Broadest Styles:</span> ArtistWorks</p>
+                       <p><span className="font-semibold">Strong Chamber Music:</span> CelloBello, ChamberMusicU</p>
+                       <p><span className="font-semibold">Adult Learner Focus:</span> Cello Discovery, Adult Cello</p> {/* Keep note here? */}
+                       <p><span className="font-semibold">Professional Level:</span> Tonebase, CelloBello</p>
+                     </div>
+                  </Card>
+                  {/* Pricing Models */}
+                   <Card className="p-6 border-0 bg-white rounded-xl shadow-sm">
+                     <h5 className="font-medium mb-4 text-lg">Common Pricing Models</h5>
+                     <div className="space-y-2 text-sm">
+                        <p><span className="font-semibold">Subscription Premium:</span> Tonebase, ArtistWorks, Cello Discovery</p>
+                        <p><span className="font-semibold">Mixed Free/Premium:</span> CelloBello, Cello Academy, Strings Mag</p>
+                        <p><span className="font-semibold">One-Time Purchase:</span> Individual teachers, specific masterclasses</p>
+                     </div>
                   </Card>
                 </div>
               </div>
+
             </TabsContent>
           </Tabs>
         </div>
