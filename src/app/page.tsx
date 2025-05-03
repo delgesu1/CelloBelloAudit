@@ -1336,6 +1336,42 @@ export default function Home() {
                     </div>
                   </Card>
 
+                  {/* Adult Cello Card */}
+                  <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
+                    <h5 className="font-medium mb-4 text-lg">
+                      Adult Cello
+                      <a href="https://adultcello.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-xs ml-2 inline-flex items-center font-normal">
+                        Visit Site <ExternalLink className="h-3 w-3 ml-1" />
+                      </a>
+                    </h5>
+                    <div className="grid md:grid-cols-3 gap-4 text-sm">
+                      <div>
+                        <h6 className="font-semibold mb-2 text-zinc-800">Key Points:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                          <li>Clear niche focus: Adult learners</li>
+                          <li>Authentic personal story (Billy Tobenkin)</li>
+                          <li>Offers blog, free resources (lesson, e-book)</li>
+                          <li>Clear value proposition for adults</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h6 className="font-semibold mb-2 text-zinc-800">Content Focus:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                          <li>Addressing adult learner pain points</li>
+                          <li>Foundational technique & practical advice</li>
+                          <li>Personal journey/motivation</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h6 className="font-semibold mb-2 text-zinc-800">Audience:</h6>
+                        <ul className="list-disc list-inside space-y-1 text-zinc-700">
+                          <li>Adult beginners & returning players</li>
+                          <li>Learners seeking relatable instructor</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </Card>
+
                   {/* Strings Magazine Card */}
                    <Card className="p-6 border-0 bg-zinc-50 rounded-xl">
                      <h5 className="font-medium mb-4 text-lg">
